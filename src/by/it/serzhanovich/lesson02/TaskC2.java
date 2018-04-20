@@ -19,13 +19,9 @@ OCT:42+32=74
 */
 class TaskC2 {
     public static void main(String[] args) {
-        int a;
-        int b;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Ввод:");
-        a = sc.nextInt();
-        b = sc.nextInt();
-        System.out.println("Вывод:");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
         System.out.println(("Dec:")+(( a+"+"+b)+"="+(a+b)));
         System.out.println(("Bin:")+(Integer.toBinaryString(a)+"+"+Integer.toBinaryString(b)+"="+Integer.toBinaryString(a+b )));
         System.out.println(("Hex:")+(Integer.toHexString(a)+"+"+Integer.toHexString(b)+"="+Integer.toHexString(a+b)));
