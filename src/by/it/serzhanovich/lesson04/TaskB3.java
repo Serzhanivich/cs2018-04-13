@@ -25,7 +25,13 @@ package by.it.serzhanovich.lesson04;
  */
 
 
+import java.util.Scanner;
 
 public class TaskB3 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int sum;
 
+    }
 }
