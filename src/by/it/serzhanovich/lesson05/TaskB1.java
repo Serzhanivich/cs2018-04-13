@@ -10,6 +10,10 @@ package by.it.serzhanovich.lesson05;
 */
 
 
-public class TaskB1 {
+import java.util.ArrayList;
 
+public class TaskB1 {
+    public static void main(String[] args) {
+        ArrayList<String> arr= new ArrayList<>();
+    }
 }
