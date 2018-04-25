@@ -30,9 +30,12 @@ import java.util.Scanner;
 public class TaskB1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-                double x = scanner.nextInt();
+                int x = scanner.nextInt();
                 if (x%100==0&&x%400!=0 ) System.out.println("количество дней в году: 365");
-               if(x%100==0&&x%400==0 )  System.out.println("количество дней в году: 366");
+              else if(x%100==0&&x%400==0 )  System.out.println("количество дней в году: 366");
+               else if(x%100!=0&&x%400!=0)
+
+        System.out.println("количество дней в году: 365");
 
     }
 }
