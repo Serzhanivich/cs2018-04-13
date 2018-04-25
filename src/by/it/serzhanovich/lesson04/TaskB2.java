@@ -29,14 +29,27 @@ public class TaskB2 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-                int a = scanner.nextInt();
-                int b=1;
-                int c=a*b;
-        while (a < 11&&b != 11&&c<=100)System.out.print(a * b + " ")
-            ;b++;
-        System.out.println(c*2);
+                int size = scanner.nextInt();
+                int size2;
+                while(size>0&&size<=10){
+                    System.out.println(size+" ");
+                    size++;
+                    for ( size2 = 1; size2 <=9; size2++) {
+
+
+                        System.out.print((size2*size)+" ");
+                    }
+                }
+
+
+    }
 
 }
-}
+
+
+
+
+
+
 
 
