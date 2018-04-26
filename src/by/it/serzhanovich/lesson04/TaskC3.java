@@ -24,5 +24,13 @@ package by.it.serzhanovich.lesson04;
 */
 
 public class TaskC3 {
+    public static void main(String[] args) {
+        for (int i = 1; i <=10 ; i++) {
 
-}
+
+        }}}
+
+
+
+
+

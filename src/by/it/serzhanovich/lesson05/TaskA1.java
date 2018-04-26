@@ -28,16 +28,15 @@ import java.util.Scanner;
 
 public class TaskA1 {
     public static void main(String[] args) {
-        int[] arr=new int[10];
-        Scanner scanner=new Scanner(System.in);
-        for (int i = 9; i >=0 ; i--) {
-            arr[i]=scanner.nextInt();
+       int[]a=new int[10];
+       Scanner scanner = new Scanner(System.in);
+        for (int i = 9; i >=0; i--) {
+            a[i]=scanner.nextInt();
         }
-    for(int element:arr){
-        System.out.println(element);
-    }
-    }
+        for (int element : a) {
+            System.out.println(element);
+        }
+        }}
 
 
 
-}

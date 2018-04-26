@@ -30,8 +30,8 @@ public class TaskB2 {
 
     public static void main(String[] args) {
        Scanner scanner = new Scanner(System.in);
-      int size= scanner.nextInt();
-      int n=1;
+      int n= scanner.nextInt();
+      int size=1;
             while(size<=10)
             {
                 System.out.print(size+" ");

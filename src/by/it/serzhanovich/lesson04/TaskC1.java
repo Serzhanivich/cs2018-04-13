@@ -1,5 +1,7 @@
 package by.it.serzhanovich.lesson04;
 
+import java.util.Scanner;
+
 /*
 Напишите программу которая спрашивает у пользователя:
 Какую вы хотите зарплату в $$$?
@@ -38,5 +40,50 @@ package by.it.serzhanovich.lesson04;
 */
 public class TaskC1 {
 
+    public static void main(String[] args) {
+        System.out.println("Какую вы хотите зарплату в $$$?");
+        Scanner scanner = new Scanner(System.in);
+        int i = scanner.nextInt();
+        int b = i + i / 2;
 
-}
+        if (i <= 300) {
+            System.out.println("Мы вам перезвоним!");
+        } else if (i >= 3000)
+            System.out.println("Мы вам перезвоним!");
+            else if(i==666) System.out.println();
+         else {
+            for (int j = 0; j <= 14; j++) {
+                if (j == 0) System.out.println("За месяц 0 начислено $0.0");
+                if (j == 1)
+                    System.out.println("За январь начислено " + b);
+
+                if (j == 2)
+                    System.out.println("За февраль начислено " + b);
+                if (j == 3)
+                    System.out.println("За март начислено " + b);
+                if (j == 4)
+                    System.out.println("За апрель начислено " + b);
+                if (j == 5)
+                    System.out.println("За май начислено " + b);
+                if (j == 6)
+                    System.out.println("За июнь начислено " + i);
+                if (j == 7)
+                    System.out.println("За июль начислено " + i);
+                if (j == 8)
+                    System.out.println("За август начислено " + i);
+                if (j == 9)
+                    System.out.println("За сентябрь начислено " + b);
+                if (j == 10)
+                    System.out.println("За октябрь начислено " + b);
+                if (j == 11)
+                    System.out.println("За ноябрь начислено " + b);
+                if (j == 12)
+                    System.out.println("За декабрь начислено " + b);
+                if (j == 13)
+                    System.out.println("За месяц 13 начислено $0.0");
+                if (j == 14)
+                    System.out.println("За месяц 14 начислено $0.0");}}}}
+
+
+
+
